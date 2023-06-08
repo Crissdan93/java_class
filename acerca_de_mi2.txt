@@ -45,4 +45,28 @@ FINAL
 el sueldo a pagar.
 -Si el sueldo es inferior a 500 pero su antiguedad es menor a 10 años otorgarle un aumeto del 5%
 -si el sueldo es mayor o igual a 500 moestrar el sueldo en pantalla sin cambios 
-//
+//git rm --cached acerca_de_mi2.txt
+
+
+agrego
+
+imprima "Se descontó la cantidad de:" + descuento	
+
+pagar=compra-descuento
+ 
+ }
+ 
+ imprimir "total a pagar=" + pagar
+ }
+else 
+{
+imprimir "Aplica descuento del 10%"
+descuento=compra*0.10
+
+imprima "Se descontó la cantidad de:" + descuento
+
+pagar=compra-descuento
+ 	
+ }
+ 
+imprimir "total a pagar=" + pagar
