@@ -1,0 +1,40 @@
+Hola, Soy Cristian
+
+NICIO
+flotante nota1,nota2,nota3,promedio
+
+imprimir "ingrese nota 1"
+Lea nota1
+imprimir "ingrese nota 2"
+Lea nota2
+imprimir "ingrese nota 3"
+Lea nota3
+
+if((nota1>=0 && nota1<=5) && (nota1>=0 && nota1<=5) && (nota1>=0 && nota1<=5))
+{
+	promedio=(nota1+nota2+nota3)/3
+
+	if(promedio>=3.0)
+	{
+	"El promedio es"+promedio+"ganaste la materia"
+	}
+ else
+	{
+	if(promedio>=2.5 && promedio<3.0)
+	{
+	"El promedio  es"+promedio+".Puedes salvar la materia"
+	}
+	else
+		{
+		imprimir"No puedes recuperar su promedio es"+promedio"
+		}
+}
+else{
+			imprimir "verifique los datos ingresados las notas no est{an entre 0 y 5"
+			
+	}		
+		
+
+
+ 
+FINAL
